@@ -10,7 +10,7 @@ using LibellusLibrary.Utils;
 
 namespace LibellusLibrary.Event.Types
 {
-	internal class PmdData_Message : PmdDataType, ITypeCreator, IExternalFile, IReferenceType
+	public class PmdData_Message : PmdDataType, ITypeCreator, IExternalFile, IReferenceType
 	{
 		public string FileName { get; set; }
 

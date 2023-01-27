@@ -10,7 +10,7 @@ using LibellusLibrary.Utils.IO;
 
 namespace LibellusLibrary.Event
 {
-	internal class PmdBuilder
+	public class PmdBuilder
 	{
 		internal PolyMovieData Pmd;
 
